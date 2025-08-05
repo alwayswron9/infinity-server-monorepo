@@ -1,0 +1,21 @@
+{
+  "name": "infinity-server",
+  "version": "1.0.0",
+  "description": "A TypeScript monorepo for infinity-server project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["monorepo", "typescript", "react", "api"],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
